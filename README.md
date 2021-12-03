@@ -1,1 +1,1 @@
-# python3_algo
+# python3 baekjoon online judge
