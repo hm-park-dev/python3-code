@@ -1,5 +1,4 @@
-# 2609.py
-# 최대공약수와 최소공배수
+# 2609.py 최대공약수와 최소공배수
 import sys
 
 def get_gcd(n: int, m: int) -> int:

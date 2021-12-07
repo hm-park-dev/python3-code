@@ -18,10 +18,8 @@ if __name__ == '__main__':
             continue
         elif (num[i] == 2) or (num[i] == 5):
             cnt += 1
-            print(num[i])
         else:
             if is_prime(num[i]):
                 cnt += 1
-                print(num[i])
 
     print(cnt)
