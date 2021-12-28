@@ -7,6 +7,7 @@ N, M = map(int, input().split())
 def solution(visited):
     if len(visited) == M+1:
         # 제일 첫번째 원소 0을 제외한 나머지 출력
+        # deque는 [1:] 슬라이싱 불가
         print(' '.join(map(str, list(itertools.islice(visited, 1, M+1)))))
         return
     
