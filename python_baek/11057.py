@@ -14,5 +14,14 @@ answer = 0
 mod = 10007
 N = int(input())
 
+# Make DP Table
+dp = [[1 for _ in range(10)] for _ in range(N+1)]
+
+for i in range(2, N+1):
+    for j in range(1, 10):
+        dp[i][j] = (dp[i-1][j] + dp[i][j-1]) % mod
+
 # Answer 
+for i in range(10):
+    answer = (answer + dp[N][i]) % mod
 print(answer % mod)
