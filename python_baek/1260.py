@@ -4,8 +4,8 @@
 # 방문할 수 있는 점이 없는 경우 종료
 
 import sys
-from collections import deque
 input = sys.stdin.readline
+from collections import deque
 
 # DFS
 def dfs(start):
