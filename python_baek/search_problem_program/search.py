@@ -13,4 +13,4 @@ f.close()
 
 length = len(problems)
 ret = problems[random.randrange(length)]
-print(f'이번에 풀 문제는 {ret[0]}번 {ret[1]}')
+print(f'Problem: No. {ret[0]} {ret[1]}')
