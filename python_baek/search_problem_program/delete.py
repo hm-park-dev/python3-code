@@ -1,7 +1,7 @@
 # 번호 입력 시 특정 번호를 제거하는 프로그램
 
 del_num = input('Input delete problem number >> ')
-f = open("C:/Users/박해미/Desktop/Project/python3-code/python_baek/search_problem_program/problem_list.txt", 'r', encoding='utf-8')
+f = open("./python_baek/search_problem_program/problem_list.txt", 'r', encoding='utf-8')
 problems = list()
 del_state = False
 
@@ -19,7 +19,7 @@ f.close()
 if del_state == False:
     print(f'Can\'t find No. {del_num}')
 else:
-    f = open("C:/Users/박해미/Desktop/Project/python3-code/python_baek/search_problem_program/problem_list.txt", 'w', encoding='utf-8')
+    f = open("./python_baek/search_problem_program/problem_list.txt", 'w', encoding='utf-8')
     for problem in problems:
         f.write(problem)
     f.close()

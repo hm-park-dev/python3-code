@@ -1,7 +1,7 @@
 # 랜덤으로 문제를 읽어오는 프로그램
 import random
 
-f = open("C:/Users/박해미/Desktop/Project/python3-code/python_baek/search_problem_program/problem_list.txt", 'r', encoding='utf-8')
+f = open("./python_baek/search_problem_program/problem_list.txt", 'r', encoding='utf-8')
 problems = list()
 
 line = f.readline().strip()
