@@ -1,4 +1,4 @@
-# 7562.py
+# 7562.py 나이트의 이동
 # https://www.acmicpc.net/problem/7562
 
 # 필요없는 방향은 제거
