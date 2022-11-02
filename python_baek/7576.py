@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-# 7576.py 토마토
-# https://www.acmicpc.net/problem/7576
-
-import sys
-input = sys.stdin.readline
-
-# Initial
-M, N = map(int, input().split())
-MAP = [list(map(int, input().split())) for _ in range(N)]
-=======
 # 7576.py 토마토
 # https://www.acmicpc.net/problem/7576
 
@@ -68,4 +57,3 @@ for i in range(N):
             break
 
 print(answer)
->>>>>>> e7044e87ed5d75a2b162c267cd108a62e62115ad
