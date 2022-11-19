@@ -7,13 +7,17 @@ input = sys.stdin.readline
 # Initial
 N, M = map(int, input().split())
 user = [[] for _ in range(N + 1)]
+kevin = [N for _ in range(N+1)] # Save Kevin number
 answer = 0
 
 # Make Undirected Graph
 for _ in range(M):
     a, b = map(int, input().split())
-    user[a].append(b)
-    user[b].append(a)
+    if b in user[a]: # duplicated relation
+        continue
+    else:
+        user[a].append(b)
+        user[b].append(a)
 
 # Answer
 print(answer)
